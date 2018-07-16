@@ -1,0 +1,79 @@
+/***** BASE STYLES *****/
+body {
+	background-color: #ECF8E0;
+	color: #0B3861;
+    float: left;
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+
+/***** FONT STYLES *****/
+
+.font-10 {
+	font-size: 275px;
+	line-height: 220px;
+}
+
+.font-9 {
+	font-size: 175px;
+	line-height:150px;
+}
+
+.font-8 {
+	font-size: 100px;
+	line-height: 100px;
+}
+
+.font-7 {
+	font-size: 82px;
+	line-height: 85px;
+}
+
+.font-6 {
+	font-size: 78px;
+	line-height: 90px;
+}
+
+.font-5 {
+	font-size: 69px;
+	line-height: 80px;
+}
+
+.font-4 {
+	font-size: 60px;
+	line-height: 80px;
+	word-spacing: 16px;
+}
+
+.font-3 {
+	font-size: 50px;
+	line-height: 58px;
+	word-spacing: 7px;
+}
+
+.font-2 {
+	font-size: 42px;
+	line-height: 45px;
+	word-spacing: 2px;
+}
+
+.font-1 {
+	font-size: 35px;
+	line-height: 40px;
+	word-spacing: 14px;
+}

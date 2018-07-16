@@ -1,0 +1,208 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+	
+#about, #work, #contact {
+	height: 80px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/hero-background.png');
+    background-size: cover;
+}
+
+header h1 {
+    padding: 50px 0 0 20px;
+    font-family: "lora", serif;
+    font-size: 20px;
+    color: #bbc985;
+}
+
+nav {
+    float: left;
+    padding: 75px 40px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:40px;
+    line-height:40px;
+    color: #9a9b9b;
+    padding: 20px 0 0 20px;
+}
+
+header h2 span {
+    color: #FD02F5;
+}
+
+/***** ABOUT *****/
+#about .full-width {
+    width:100%;
+    text-align: center;
+	background: url('../img/about-me.png');
+	background-size: cover;
+}
+
+#about .half-width {
+	width: 50%;
+	padding: 0 0 0 40px;
+	text-align: left;
+}
+
+#about h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+	color: #000000;
+	margin: 0 auto;
+}
+
+#about h6 {
+	font-size: 30px;
+	color: #FD02F0;
+}
+
+#about p {
+    font-size: 22px;
+    color: #000000;
+	line-height: 35px;
+	padding: 0 0 0 0;
+}
+
+/***** WORK *****/
+#work {
+    text-align: center;
+}
+
+#work .full-width {
+	width: 100%;
+	height: 475px;
+	background-color: #000000;
+}
+
+#work h3 {
+      font-size: 24px;
+	  color: #ffffff;
+	  width: 190px;
+	  margin: 0 auto;
+	  font-weight: normal;
+}
+
+#work h4 {
+	font-size: 24px;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#work h5 {
+	font-size: 30px;
+	background-color: #000000;
+	color: #FD02F5;
+}
+
+#work p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      line-height: 5px;
+      padding: 0 35px;
+}
+
+#work img {
+    padding: 0 5px 5px 5px;
+	width: 350px;
+}
+
+/***** CONTACT *****/
+#contact .full-width {
+	background: #ebebeb;
+    width: 100%;
+	text-align: center;
+}
+
+#contact .third-width {
+	width: 33%;
+	text-align: center;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+}
+
+#contact h4 {
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#contact p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      line-height: 30px;
+      padding: 0 35px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+	padding-right: 48px;
+}

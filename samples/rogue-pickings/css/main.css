@@ -1,0 +1,218 @@
+body {
+	font-family: 'Verdana', Helvetica, Arial, sans-serif;
+}
+
+@font-face{
+	font-family: 'pinyonscript-regular';
+	src: url('../fonts/pinyonscript-regular.ttf') format('opentype');
+}
+
+/***** GRID *****/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: left;
+	width: auto;
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+h3 {
+	font-size: 18px;
+	text-align: center;
+	padding: 15px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+
+p {
+	padding: 0 30px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+.bottom-section img {
+    padding: 0 5px 5px 5px;
+	width: 400px;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+
+.main-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+
+.main-title p {
+	padding: 0;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.section-one img {
+    padding: 0 5px 5px 5px;
+	width: 300px;
+}
+
+.section-two img {
+    padding: 0 5px 5px 5px;
+	width: 300px;
+}
+
+.section-three img {
+    padding: 0 5px 5px 5px;
+	width: 300px;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two img {
+    padding: 0 5px 5px 5px;
+	width: 300px;
+}
+
+.section-three img {
+    padding: 0 5px 5px 5px;
+	width: 300px;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+	font-family: 'pinyonscript-regular',cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
